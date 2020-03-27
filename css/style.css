@@ -141,6 +141,7 @@ a{
     color: #999;
     font-size: 14px;
     transition: .3s;
+    margin: 15px 0;
 }
 a:hover{
     color: #7B68EE;
