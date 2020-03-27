@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="feather.js"></script>
+    <title>เข้าสู่ระบบ</title>
+</head>
+
+<body>
+    <img class="bg" src="bg-2.png" alt="">
+    <div class="container">
+        <div class="img">
+            <img src="tv.png" alt="">
+        </div>
+        <div class="login-content">
+            <form action="index.html">
+                <img class="man" src="man.png" alt="">
+            <h2>ยินดีต้อนรับ</h2>
+                <div class="input-div one">
+                    <div class="i">
+                        <i data-feather="user"></i>
+                    </div>
+                    <div>
+                        <h5>ชื่อผู้ใช้</h5>
+                    <input class="input" type="text" name="username" id="username">
+                    </div>
+                </div>
+                <div class="input-div two">
+                    <div class="i">
+                        <i data-feather="lock"></i>
+                    </div>
+                    <div>
+                        <h5>รหัสผ่าน</h5>
+                    <input class="input" type="password" name="password" id="password">
+                    </div>
+                </div>
+                <a href="#">ลืมรหัสผ่าน?</a>
+                <input type="submit" value="เข้าสู่ระบบ" class="submit-btn">
+            </form>
+        </div>
+    </div>
+    <script src="style.js"></script>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
