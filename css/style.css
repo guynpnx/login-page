@@ -5,7 +5,7 @@
 }
 @font-face{
     font-family: "anantason";
-    src: url("Anantason/Anantason-Regular.ttf");
+    src: url("../Anantason/Anantason-Regular.ttf");
 }
 body{
     font-family: "anantason",Arial, Helvetica, sans-serif;
